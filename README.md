@@ -1,4 +1,6 @@
-# Spring Boot, Spring Security, PostgreSQL: JWT Authentication & Authorization example
+# Spring Boot, Spring Security, PostgreSQL: JWT Authentication & Authorization & Cucumber testing example
+
+https://www.bezkoder.com/spring-boot-jwt-authentication/
 
 ## User Registration, User Login and Authorization process.
 The diagram shows flow of how we implement User Registration, User Login and Authorization process.
@@ -128,7 +130,7 @@ mvn spring-boot:run
 
 ## Run following SQL insert statements
 ```
-INSERT INTO roles(name) VALUES('ROLE_USER');
-INSERT INTO roles(name) VALUES('ROLE_MODERATOR');
+INSERT INTO roles(name) VALUES('ROLE_STUDENT');
+INSERT INTO roles(name) VALUES('ROLE_TEACHER');
 INSERT INTO roles(name) VALUES('ROLE_ADMIN');
 ```
