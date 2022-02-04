@@ -54,16 +54,13 @@ public class RegisterTeacherStepDefs extends SpringIntegration {
         moduleRepository.save(module);
     }
 
-    @WithUserDetails("stevyy")
     @When("{string} registers to module {string}")
     public void registersToModule(String arg0, String arg1) throws Exception {
         Module module = moduleRepository.findByName(arg1).get();
         User user = userRepository.findByUsername(arg0).get();
         String jwt = authController.generateJwt(arg0, PASSWORD);
 
-//        executePost("http://localhost:8080/api/test/mod", jwt);
-//        executePost("http://localhost:8080/api/module/1/participants/7", jwt);
-        executePost("http://localhost:8080/api/module/"+module.getId()+"/participants/"+user.getId(), jwt);
+       executePost("http://localhost:8080/api/module/"+module.getId()+"/participants/"+user.getId(), jwt);
     }
     @Then("last request status is {int}")
     public void isRegisteredToModule(int status) {

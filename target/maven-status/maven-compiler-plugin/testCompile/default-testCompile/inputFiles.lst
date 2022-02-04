@@ -1,7 +1,6 @@
-/Users/urso/git/spring-boot-security-postgresql/src/test/java/fr/unice/polytech/SpringContextTest.java
-/Users/urso/git/spring-boot-security-postgresql/src/test/java/fr/unice/polytech/ResponseResults.java
-/Users/urso/git/spring-boot-security-postgresql/src/test/java/fr/unice/polytech/RunCucumberTest.java
-/Users/urso/git/spring-boot-security-postgresql/src/test/java/fr/unice/polytech/HeaderSettingRequestCallback.java
-/Users/urso/git/spring-boot-security-postgresql/src/test/java/fr/unice/polytech/RegisterTeacherStepDefs.java
-/Users/urso/git/spring-boot-security-postgresql/src/test/java/fr/unice/polytech/SpringIntegrationTest.java
-/Users/urso/git/spring-boot-security-postgresql/src/test/java/com/bezkoder/spring/security/postgresql/SpringBootSecurityPostgresqlApplicationTests.java
+/Users/urso/git/SpringBootstrap/src/test/java/fr/uca/springbootstrap/ResponseResults.java
+/Users/urso/git/SpringBootstrap/src/test/java/fr/uca/springbootstrap/RegisterTeacherStepDefs.java
+/Users/urso/git/SpringBootstrap/src/test/java/fr/uca/springbootstrap/SpringContextTest.java
+/Users/urso/git/SpringBootstrap/src/test/java/fr/uca/springbootstrap/SpringIntegration.java
+/Users/urso/git/SpringBootstrap/src/test/java/fr/uca/springbootstrap/HeaderSettingRequestCallback.java
+/Users/urso/git/SpringBootstrap/src/test/java/fr/uca/springbootstrap/RunCucumberTest.java
