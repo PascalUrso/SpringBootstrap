@@ -45,6 +45,7 @@ public class ModuleController {
 	@Autowired
 	JwtUtils jwtUtils;
 
+	// Adds a user to a module
 	@PostMapping("/{id}/participants/{userid}")
 	@PreAuthorize("hasRole('TEACHER')")
 	public ResponseEntity<?> addUser(Principal principal, @PathVariable long id, @PathVariable long userid) {
